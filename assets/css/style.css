@@ -1,0 +1,461 @@
+body{
+     padding: 0%;
+     margin: 0px;
+}
+
+textarea {
+    resize: none;
+ }
+
+ .divMain1{
+    padding: 20px;
+ }
+
+
+#header1{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 8px  black;
+    
+}
+
+
+
+nav{
+    text-align: center;
+}
+
+header{
+    padding-top: 20px;
+    border-radius: 0px;
+    background-image: url("../img/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    min-width: 800PX;
+     
+}
+
+.buttonFooter{
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    margin: 5px;
+    border: 0px ;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.buttonFooter:hover{
+    border: 2px solid white;
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    
+    min-width: 800PX;
+
+    
+    
+
+}
+
+.containerBkgImgText{
+    text-align: center;
+    text-shadow: 3px 3px 7px   black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 1200px;
+    height: 600px;
+    color: rgb(140, 205, 221);
+    font-size: 80px;
+    font-weight: 800;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.containerBkgImgText:hover{
+    transform: scale(1.02);
+}
+
+.homeImg1{
+    background-image: url(../img/home1crop.jpeg);
+
+
+}
+
+.homeImg2{
+    background-image: url(../img/home2transport\ in\ comun.png);
+
+}
+
+.homeImg3{
+    background-image: url(../img/home3foodelgian.webp);
+
+}
+
+.homeImg4{
+    background-image: url(../img/home4default-intro.jpg);
+
+}
+
+.bkgWhite{
+    background-color: white;
+}
+
+.bkgwWitesmoke{
+    background-color: whitesmoke;
+}
+
+#footerMain{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+/*  */
+
+.whiteImgPar{
+    height: 400px;
+    color: black;
+}
+
+.whiteSnParImg{
+    height: 400px;
+    
+}
+
+
+
+
+.divInlineCenter{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.divCenter{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    min-width: 300px;
+    
+}
+
+/* .img1{
+    border-radius: 200px;
+    margin: 50px;
+    
+
+}
+
+.img1:hover{
+    transform: scale(1.1);
+    border-radius: 2px;
+
+} */
+
+.inlineBlock{
+    text-align: justify;
+    font-size: larger;
+
+}
+
+.inlineBlock:hover{
+    color: rgb(73, 73, 73);
+     
+}
+
+.div10{
+    display: block;
+    padding-top: 100px;
+    width: 400px;
+}
+
+.ancorWhiteUnderline{
+    color: white;
+    text-decoration: none;
+     
+}
+
+.ancorWhiteUnderline:hover {
+     
+    text-decoration: underline;
+}
+
+.ancorNavWhiteUnderline{
+    color: black;
+    text-decoration: none;
+     
+}
+
+.ancorNavWhiteUnderline:hover {
+     
+    text-decoration: underline;
+}
+
+#divFormMain{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.divFormular{
+    
+    width: 400px;
+    min-width: 300px;
+    padding: 80px;
+    padding-top: 10px;
+    border: 2px solid skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.divMapBr{
+    padding: 20px;
+    height: 500px;
+    width: fit-content;
+}
+
+/* aici creez MainBoxWhite cu background alb si pading 10px */
+
+.MainBoxWhite{
+
+    background-color: white;
+    padding: 10px;
+}
+
+.MainBoxwhitesmoke{
+
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+
+.containerCentrat{
+    
+       width: fit-content;       
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       /* display: inline-block; */
+}
+
+.textJustify{    
+        text-align: justify;
+        font-size: larger;    
+    
+}
+
+.divBOX400x400{
+    /* height: 300px; */
+    width: 400px;
+    padding: 10px;
+     
+    
+    margin: auto;
+}
+
+/* div box for text */
+
+/* div box for image */
+
+/* bakground imagini pentru divuri */
+
+
+
+
+
+/*cod prototip stil pentru proiectu final  */
+
+
+.headerContainer{
+    margin: 0px;
+    padding: 10px;
+    background-color: aqua;
+    width: 100%;
+    min-width: 600px;
+    height: 80px;
+}
+
+.footerContainer{
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    min-width: 600px;
+    height: 80px;
+}
+
+.boxBkgWhite{
+    background-color: white ;
+     
+}
+
+.boxBkgwhitesmoke{
+    background-color: whitesmoke;
+
+}
+
+.containerFlex{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    
+
+}
+
+.textJustyfy{
+    
+    
+    font-size: larger;
+    text-align: justify;
+    
+}
+
+.textCenter{
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+}
+
+.boxText{
+    width: 400px;
+    height: 300px;
+    /* background-color:  aquamarine; */
+    padding: 20px;
+    
+}
+
+.bkgImgSetup{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img1:hover{
+    transform: scale(1.05);
+}
+
+.img1{
+    background-image: url(../img/Brussels_-_Atomium_2022.jpg);
+
+}
+
+.img2-1{
+    background-image: url(../img/2-1\ Brussels_-_Atomium_2022.jpg);
+
+}
+
+.img2-2{
+    background-image: url(../img/2-2\ bruselasgrandplace176.jpg);
+
+}
+
+.img2-3{
+    background-image: url(../img/2-3\ mini\ europe.jpg);
+
+}
+
+.img2-4{
+    background-image: url(../img/2-4Planztarium.jpg);
+
+}
+
+.img2-5{
+    background-image: url(../img/2-5The-Triumphal-Arch-in-the-Cinquantenaire-Parc-in-Brussels.jpeg);
+
+}
+
+.img2-6{
+    background-image: url(../img/2-6-brussels-st-michael-and-st-gudula-cathedral.jpg);
+
+}
+
+.img2-7{
+    background-image: url(../img/2-7\ notre\ dame.jpg);
+
+}
+
+.img2-8{
+    background-image: url(../img/2-8\ auto.jpg);
+
+}
+
+.img2-9{
+    background-image: url(../img/2-9\ tain.webp);
+
+}
+
+.img2-10{
+    background-image: url(../img/2-10\ BE-brussels-sights-royal-museum-of-fine-arts-2-cover.jpg);
+
+}
+
+.img2-11{
+    background-image: url(../img/2-11\ muzeu\ science.webp);
+
+}
+
+.img2-12{
+    background-image: url(../img/2-12\ cocolat.jpg);
+
+}
+
+.img3-1{
+    background-image: url(../img/3-1Grill\ Land.png);
+
+}
+
+.img3-2{
+    background-image: url(../img/3-2Snack\ Les\ Freres.png);
+
+}
+
+.img3-3{
+    background-image: url(../img/3-3Sakura\ Sushi.png);
+
+}
+
+
+
+
+.img4-1{
+    background-image: url(../img/4-1www.brussels.be.png);
+
+}
+
+.img4-2{
+    background-image: url(../img/4-2\ CPAS\ cpasbxl.brussels.png);
+
+}
+
+.img4-3{
+    background-image: url(../img/4-3FGTB\ Droits\ syndicaux\ www.fgtb.be.png);
+
+}
